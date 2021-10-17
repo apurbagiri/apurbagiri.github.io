@@ -59,7 +59,7 @@ module.exports = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: urls.gitHubUser,
             label: 'GitHub',
             position: 'right',
           },
