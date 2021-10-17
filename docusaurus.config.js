@@ -3,18 +3,20 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const { name, tagline, email, statusEmoji, urls, config, recommended } = require('./personal.config.json');
 
 /** @type {import('@docusaurus/types').Config} */
-const config = {
-  title: 'Apurba Giri',
-  tagline: 'The perfect place to find out more about me',
-  url: 'https://www.apurbagiri.com',
+
+module.exports = {
+  title: name,
+  tagline: tagline,
+  url: urls.home,
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'Apurba Giri', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: config.gitHub.user, // Usually your GitHub org/user name.
+  projectName: `${config.gitHub.user}.github.io`, // Usually your repo name.
 
   presets: [
     [
@@ -43,9 +45,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Apurba Giri',
+        title: `${name} ${statusEmoji}`,
         logo: {
-          alt: 'Apurba Giri',
+          alt: `${name}\'s Logo`,
           src: 'img/logo.png',
         },
         items: [
@@ -106,7 +108,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Apurba Giri`,
+        copyright: `<span class="personal-footer">Copyright © ${new Date().getFullYear()} ${name}</span><br/><span class="docusaurus-footer">Powered by GitHub & Docusaurus</span>`,
       },
       prism: {
         theme: lightCodeTheme,
@@ -114,5 +116,3 @@ const config = {
       },
     }),
 };
-
-module.exports = config;

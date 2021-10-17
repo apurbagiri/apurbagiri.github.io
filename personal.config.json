@@ -1,0 +1,39 @@
+{
+  "name": "Apurba Giri",
+  "tagline": "The perfect place to find out more about me",
+  "email": "contact@apurbagiri.com",
+  "image": "https://apurbagiri.com/img/profile.png?size=300",
+  "statusEmoji": "",
+  "urls": {
+    "home": "https://apurbagiri.com",
+    "gitHubUser": "https://github.com/apurbagiri",
+    "gitHubPagesDocusaurusBlogEditBase": "https://github.com/apurbagiri/apurbagiri.github.io/edit/develop/",
+    "linkedIn": "https://www.linkedin.com/in/apurbagiri/",
+    "twitter": "https://twitter.com/_apurbaGiri",
+    "instagram": "https://www.instagram.com/apurbagiri/"
+  },
+  "recommended": [
+    {
+      "label": "MKBHD 👨🏿‍💻",
+      "to": "https://www.youtube.com/user/marquesbrownlee"
+    },
+    {
+      "label": "The Main Squeeze \n\uD83C\uDFB8",
+      "to": "https://www.youtube.com/c/MainSqueezeMusic"
+    },
+    {
+      "label": "Prateek Kuhad 🎧",
+      "to": "https://www.youtube.com/user/prateekkuhadmusic"
+    }
+  ],
+  "config": {
+    "gitHub": {
+      "user": "apurbagiri"
+    },
+    "seo": {
+      "keywords": ["apurba", "giri", "delhi", "new delhi", "ncr", "gurugram", "gurgaon", "india", "bengali", "engineer",
+        "software engineer", "principal engineer", "cvent", "cvent india", "lbsim", "raisina", "rbs", "raisina bengali school"],
+      "avatar": "https://apurbagiri.com/img/profile.png"
+    }
+  }
+}
