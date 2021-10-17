@@ -26,3 +26,17 @@
 html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
+
+.personal-footer {
+  /*color: #749bc4;*/
+}
+
+.docusaurus-footer {
+  font-size: 0.7rem;
+  color: #749bc4;
+}
+
+.contact-link {
+  color: #838490;
+  font-size: 0.8rem;
+}
