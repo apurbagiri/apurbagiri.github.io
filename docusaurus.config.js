@@ -103,7 +103,7 @@ module.exports = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: urls.gitHubUser,
               },
             ],
           },
